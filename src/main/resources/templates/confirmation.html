@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Registration Successful</title>
+</head>
+
+<body>
+
+<h1>Registration Successful!</h1>
+
+<h2>Participant Details</h2>
+
+<p>
+    Name:
+    <span th:text="${participant.name}"></span>
+</p>
+
+<p>
+    Email:
+    <span th:text="${participant.email}"></span>
+</p>
+
+</body>
+</html>
